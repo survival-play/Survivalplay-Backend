@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: survivalplayBackend
+datasources:
+  default:
+    url: jdbc:mariadb://127.0.0.1:3306/Test-Backend
+    driverClassName: org.mariadb.jdbc.Driver
+    username: root
+    password: '2502'
+    dialect: mysql
+flyway:
+  datasources:
+    default:
+      enabled: true
+      locations:
+        - classpath:databasemigration

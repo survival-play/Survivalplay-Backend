@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: de.goldmensch
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle_kotlin
+features: [ annotation-api, app-name, data, data-jdbc, flyway, gradle, h2, http-client, java, java-application, jdbc-hikari, junit, logback, netty-server, readme, shade, yaml ]
